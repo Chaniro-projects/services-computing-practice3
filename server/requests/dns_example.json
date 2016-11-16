@@ -1,0 +1,39 @@
+{
+	"soap:Envelope": {
+		"$": {
+			"xmlns:soap": "http://schemas.xmlsoap.org/soap/envelope/",
+			"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+			"xmlns:xsd": "http://www.w3.org/2001/XMLSchema"
+		},
+		"Header": [{
+			"$": {
+				"xmlns": "http://schemas.xmlsoap.org/soap/envelope/"
+			},
+			"SubscriptionInfo": [{
+				"$": {
+					"xmlns": "http://ws.strikeiron.com"
+				},
+				"LicenseStatusCode": ["0"],
+				"LicenseStatus": ["Valid license key"],
+				"LicenseActionCode": ["0"],
+				"LicenseAction": ["Decremented hit count"],
+				"RemainingHits": ["22"],
+				"Amount": ["0"]
+			}]
+		}],
+		"soap:Body": [{
+			"DNSLookupResponse": [{
+				"$": {
+					"xmlns": "http://tempuri.org/"
+				},
+				"DNSLookupResult": [{
+					"HostName": ["google.fr"],
+					"Aliases": [""],
+					"AddressList": [{
+						"string": ["173.194.68.94"]
+					}]
+				}]
+			}]
+		}]
+	}
+}

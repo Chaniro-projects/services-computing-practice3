@@ -1,0 +1,119 @@
+{
+	"SOAP-ENV:Envelope": {
+		"$": {
+			"SOAP-ENV:encodingStyle": "http://schemas.xmlsoap.org/soap/encoding/",
+			"xmlns:SOAP-ENV": "http://schemas.xmlsoap.org/soap/envelope/",
+			"xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+			"xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+			"xmlns:SOAP-ENC": "http://schemas.xmlsoap.org/soap/encoding/",
+			"xmlns:tns": "http://v1.fraudlabs.com/soap/IP2LocationWebService"
+		},
+		"SOAP-ENV:Body": [{
+			"ns1:IP2LocationResponse": [{
+				"$": {
+					"xmlns:ns1": "v1.fraudlabs.com"
+				},
+				"return": [{
+					"$": {
+						"xsi:type": "tns:IP2LocationOutput"
+					},
+					"COUNTRYCODE": [{
+						"_": "US",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"COUNTRYNAME": [{
+						"_": "United States",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"REGION": [{
+						"_": "California",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"CITY": [{
+						"_": "Mountain View",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"LATITUDE": [{
+						"_": "37.405992",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"LONGITUDE": [{
+						"_": "-122.078515",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"ZIPCODE": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"ISPNAME": [{
+						"_": "Google Inc.",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"DOMAINNAME": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"TIME_ZONE": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"NETSPEED": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"AREACODE": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"WEATHERSTATION": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"WEATHERSTATIONCODE": [{
+						"_": "Not available for this package",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"CREDITSAVAILABLE": [{
+						"_": "85",
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}],
+					"MESSAGE": [{
+						"$": {
+							"xsi:type": "xsd:string"
+						}
+					}]
+				}]
+			}]
+		}]
+	}
+}

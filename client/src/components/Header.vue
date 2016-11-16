@@ -14,8 +14,8 @@
 		</div>
 		<div class="navbar-collapse collapse navbar-responsive-collapse">
 			<ul class="nav navbar-nav">
-				<li v-bind:class="{active:index === 'ws1'}"><a href="/ws1">Web service 1</a></li>
-				<li v-bind:class="{active:index === 'ws2'}"><a href="/ws2">Web service 2</a></li>
+				<li v-bind:class="{active:index === 'ws1'}"><a href="/ws1">DNS Lookup</a></li>
+				<li v-bind:class="{active:index === 'ws2'}"><a href="/ws2">IP Geolocalisation</a></li>
             <li v-bind:class="{active:index === 'mashup'}"><a href="/mashup">Mashup</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
